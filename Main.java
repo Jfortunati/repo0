@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 public class Main {
 	
-	//test
-	
 	//input to print Fibonaci series up to how many numbers 
 	System.out.print("Enter number up to which Fibonacci series to print: ");
 	int number = new Scanner(System.in).nextInt();
