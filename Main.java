@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 public class Main {
 	
-	// test 2
-
 	// Java program for Fibonacci number using recursion.
     public static long fibonacciRecursion(long number){
         if(number == 1 || number == 2){
