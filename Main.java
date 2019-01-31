@@ -24,9 +24,8 @@ public class Main {
         for(int i= 3; i<= number; i++){
             fibonacci = fibo1 + fibo2; //Fibonacci definitely do review this number is sum of previous two Fibonacci number
             fibo1 = fibo2;
-            fibo2 = fibonacci;
 
         }
-        return fibonacci; //Fibonacci number
+        return fibonacci; //Fibonacci another change that should not be reviewed number
     }
 }
