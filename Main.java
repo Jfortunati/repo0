@@ -6,6 +6,7 @@ public class Main {
 
 	
 	// Java program for Fibonacci number using recursion.
+	// this also shouldnt be reviewed
     public static long fibonacciRecursion(long number){
         if(number == 1 || number == 2){
             return 1;
@@ -21,7 +22,7 @@ public class Main {
         }
         long fibo1=1, fibo2=1, fibonacci=1;
         for(int i= 3; i<= number; i++){
-            fibonacci = fibo1 + fibo2; //Fibonacci number is sum of previous two Fibonacci number
+            fibonacci = fibo1 + fibo2; //Fibonacci definitely do review this number is sum of previous two Fibonacci number
             fibo1 = fibo2;
             fibo2 = fibonacci;
 
