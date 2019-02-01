@@ -17,6 +17,7 @@ public class Main {
 
     // Java program for Fibonacci number using Loop.
     public static long fi	// working branch dont review repo 2bonacciLoop(int number){
+		// dont review these changes!
         if(number == 1 || number == 2){
             return 1;
         }
@@ -26,6 +27,7 @@ public class Main {
             fibo1 = fibo2;
 	// working branch dont review repo 2
         }
+		// dont review these changes!!
         return fibonacci; //Fibonacci another change that should not be reviewed number
     }
 }
